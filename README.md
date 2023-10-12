@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on building a sentiment analysis model using the BERT (Bidirectional Encoder Representations from Transformers) model in PyTorch. The IMDB movie review dataset is used, which contains reviews labeled as either positive or negative.
+This Jupyter notebook presents a simple implementation of a Sentiment Analysis model. The model is trained on the IMDB dataset, which contains 50,000 movie reviews labeled as either positive or negative. We use PyTorch to build and train the BERT (Bidirectional Encoder Representations from Transformers) model in PyTorch. 
 
 ### Steps
 ## 1. Setup and Dependencies
@@ -11,6 +11,7 @@ This project focuses on building a sentiment analysis model using the BERT (Bidi
 
 ## 2.  Data Loading and Preprocessing
 - Load the IMDB movie review dataset.
+- For more dataset information, please go through the following link (http://ai.stanford.edu/~amaas/data/sentiment/)
 - Split the dataset into training and testing sets.
 - Visualize the distribution of sentiment labels in the dataset to understand the balance.
 
